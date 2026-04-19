@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+<rect width="100%" height="100%" fill="white"/>
+<style>
+text { font-family: Arial, sans-serif; fill: #1f2933; }
+.axis { stroke: #1f2933; stroke-width: 1.4; }
+.grid { stroke: #d7dde3; stroke-width: 1; }
+.point { fill: #1f77b4; stroke: white; stroke-width: 1.5; }
+.legend-point { fill: #1f77b4; stroke: white; stroke-width: 1.5; }
+.trend { stroke: #d62728; stroke-width: 3; stroke-dasharray: 8 6; }
+</style>
+<text x="500.0" y="34" font-size="24" font-weight="700" text-anchor="middle">Leitnigreining ársmeðalrennslis</text>
+<text x="500.0" y="59" font-size="16" text-anchor="middle">Hvítá við Kljáfoss, 1993-10-01 til 2023-09-30</text>
+<line class="grid" x1="115.00" y1="85" x2="115.00" y2="530"/>
+<text x="115.00" y="556" font-size="12" text-anchor="middle">1995</text>
+<line class="grid" x1="265.00" y1="85" x2="265.00" y2="530"/>
+<text x="265.00" y="556" font-size="12" text-anchor="middle">2000</text>
+<line class="grid" x1="415.00" y1="85" x2="415.00" y2="530"/>
+<text x="415.00" y="556" font-size="12" text-anchor="middle">2005</text>
+<line class="grid" x1="565.00" y1="85" x2="565.00" y2="530"/>
+<text x="565.00" y="556" font-size="12" text-anchor="middle">2010</text>
+<line class="grid" x1="715.00" y1="85" x2="715.00" y2="530"/>
+<text x="715.00" y="556" font-size="12" text-anchor="middle">2015</text>
+<line class="grid" x1="865.00" y1="85" x2="865.00" y2="530"/>
+<text x="865.00" y="556" font-size="12" text-anchor="middle">2020</text>
+<line class="grid" x1="85" y1="530.00" x2="955" y2="530.00"/>
+<text x="75" y="534.00" font-size="12" text-anchor="end">72</text>
+<line class="grid" x1="85" y1="418.75" x2="955" y2="418.75"/>
+<text x="75" y="422.75" font-size="12" text-anchor="end">80</text>
+<line class="grid" x1="85" y1="307.50" x2="955" y2="307.50"/>
+<text x="75" y="311.50" font-size="12" text-anchor="end">88</text>
+<line class="grid" x1="85" y1="196.25" x2="955" y2="196.25"/>
+<text x="75" y="200.25" font-size="12" text-anchor="end">96</text>
+<line class="grid" x1="85" y1="85.00" x2="955" y2="85.00"/>
+<text x="75" y="89.00" font-size="12" text-anchor="end">104</text>
+<line class="axis" x1="85" y1="530" x2="955" y2="530"/>
+<line class="axis" x1="85" y1="85" x2="85" y2="530"/>
+<polyline class="trend" points="85.00,320.61 955.00,342.11"/>
+<circle class="point" cx="85.00" cy="437.23" r="5"/>
+<circle class="point" cx="115.00" cy="450.33" r="5"/>
+<circle class="point" cx="145.00" cy="400.20" r="5"/>
+<circle class="point" cx="175.00" cy="307.33" r="5"/>
+<circle class="point" cx="205.00" cy="348.14" r="5"/>
+<circle class="point" cx="235.00" cy="464.44" r="5"/>
+<circle class="point" cx="265.00" cy="276.58" r="5"/>
+<circle class="point" cx="325.00" cy="299.23" r="5"/>
+<circle class="point" cx="385.00" cy="159.43" r="5"/>
+<circle class="point" cx="415.00" cy="244.56" r="5"/>
+<circle class="point" cx="445.00" cy="305.66" r="5"/>
+<circle class="point" cx="475.00" cy="277.10" r="5"/>
+<circle class="point" cx="505.00" cy="153.91" r="5"/>
+<circle class="point" cx="535.00" cy="242.48" r="5"/>
+<circle class="point" cx="565.00" cy="397.22" r="5"/>
+<circle class="point" cx="595.00" cy="209.74" r="5"/>
+<circle class="point" cx="625.00" cy="275.78" r="5"/>
+<circle class="point" cx="655.00" cy="452.58" r="5"/>
+<circle class="point" cx="685.00" cy="446.42" r="5"/>
+<circle class="point" cx="715.00" cy="320.93" r="5"/>
+<circle class="point" cx="745.00" cy="477.26" r="5"/>
+<circle class="point" cx="775.00" cy="288.98" r="5"/>
+<circle class="point" cx="805.00" cy="353.66" r="5"/>
+<circle class="point" cx="835.00" cy="413.82" r="5"/>
+<circle class="point" cx="865.00" cy="359.64" r="5"/>
+<circle class="point" cx="895.00" cy="461.09" r="5"/>
+<circle class="point" cx="925.00" cy="247.81" r="5"/>
+<circle class="point" cx="955.00" cy="433.15" r="5"/>
+<text x="24" y="310.0" font-size="15" text-anchor="middle" transform="rotate(-90 24 310.0)">Meðalrennsli (m3/s)</text>
+<text x="500.0" y="592" font-size="15" text-anchor="middle">Vatnsár</text>
+<circle class="legend-point" cx="85" cy="570" r="5"/>
+<text x="99" y="574" font-size="13">Ársmeðalrennsli</text>
+<line class="trend" x1="245" y1="570" x2="285" y2="570"/>
+<text x="297" y="574" font-size="13">Theil-Sen leitnilína</text>
+</svg>
